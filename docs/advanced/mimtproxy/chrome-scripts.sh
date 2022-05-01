@@ -1,0 +1,1 @@
+"Google Chrome" --ignore-certificate-errors --proxy-server=http://localhost:8080

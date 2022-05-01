@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "pypro-templates"
+name = "pydaily"
 version = "0.1.0"
-description = ""
+description = "fluent qa pydaily tutorial"
 authors = ["Patrick <fakepatrick@163.com>"]
 readme = "README.md"
 packages = [
-    { include = "pypro_templates",from = "src" }
+    { include = "pydaily",from = "src" }
 ]
 include = [
     {path="tests",format="sdist"}
