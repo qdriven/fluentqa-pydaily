@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 from typing import Optional
 
-from . import app as app
+from src.lessons.server_api import app as app
 
 
 @app.get("/helloworld")
