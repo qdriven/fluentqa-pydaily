@@ -22,11 +22,16 @@ include = [
 [tool.poetry.dependencies]
 python = "^3.10"
 deep-translator = "^1.8.3"
-fastapi = "^0.75.2"
+fastapi = "^0.76.0"
 SQLAlchemy = "^1.4.36"
 sqlmodel = "^0.0.6"
 uvicorn = "^0.17.6"
 loguru = "^0.6.0"
+structlog = "^21.5.0"
+dynaconf = "^3.1.8"
+pyscript-cli = "^0.2.1"
+pathdict = "^0.0.9"
+python-box = "^6.0.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
@@ -52,6 +57,7 @@ mkdocs-minify-plugin = "^0.5.0"
 
 jupytext = "^1.13.8"
 datamodel-code-generator = "^0.12.0"
+invoke = "^1.7.0"
 # [tool.poetry.scripts]
 # poetry = "poetry.console.application:main"
 
