@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pydaily.lessons.translation_demo.fluent_translators import ZhTranslator
+from pydaily import ZhTranslator
 
 
 def test_translate_batch():

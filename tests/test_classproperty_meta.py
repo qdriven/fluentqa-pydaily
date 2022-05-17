@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pydaily.classproperty_demo import ClasspropertyMeta, classproperty
+from pydaily import ClasspropertyMeta, classproperty
 
 
 class TestClass(metaclass=ClasspropertyMeta):

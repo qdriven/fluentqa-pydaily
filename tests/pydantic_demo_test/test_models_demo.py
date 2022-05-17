@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pydaily.pydantic_demo.models_demo import UserModel
+from pydaily import UserModel
 
 
 class TestUserModel_pydantic_usage:

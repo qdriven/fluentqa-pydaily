@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 from pydaily.more_classes.core import ThreadSingleton, SingletonArgs, ThreadSingletonArgs
-from pydaily.more_classes.singleton_demo import Singleton
+from pydaily import Singleton
 
 
 class TSingletonBase():
