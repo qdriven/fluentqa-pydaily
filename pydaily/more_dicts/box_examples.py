@@ -14,3 +14,5 @@ another_json = Box({
 
 print(another_json.req)
 print(another_json.resp)
+movie_box['name'] = "test"
+print(movie_box.name)

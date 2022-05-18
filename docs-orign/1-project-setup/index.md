@@ -22,7 +22,7 @@ pip install --upgrade poetry
 
 运行以下命令:
 ```shell
-poetry new pytodo
+poetry new pyapi
 ```
 ---
 ## 项目结构说明

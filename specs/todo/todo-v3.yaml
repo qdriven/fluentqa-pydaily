@@ -22,7 +22,7 @@ tags:
 paths:
   /todos:
     summary: Path used to manage the list of todos.
-    description: 'The REST endpoint/path used to list and create zero or more `Todo` entities.  This path contains a `GET` and `POST` operation to perform the list and create tasks, respectively.'
+    description: 'The REST endpoint/path used to list and create zero or ioc_more `Todo` entities.  This path contains a `GET` and `POST` operation to perform the list and create tasks, respectively.'
     get:
       responses:
         '200':

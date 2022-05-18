@@ -9,3 +9,4 @@
 # 6. https://github.com/aminalaee?tab=repositories
 # 7. https://saurabh-kumar.com/python-dotenv/#getting-started
 # 8. https://github.com/theskumar/python-dotenv
+# 9. https://python-course.eu/

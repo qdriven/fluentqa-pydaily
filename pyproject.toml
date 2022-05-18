@@ -31,6 +31,8 @@ dynaconf = "^3.1.8"
 pyscript-cli = "^0.2.1"
 pathdict = "^0.0.9"
 python-box = "^6.0.2"
+injector = "^0.19.0"
+datamodel-code-generator = {extras = ["http"], version = "^0.12.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
