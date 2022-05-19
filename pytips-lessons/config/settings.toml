@@ -1,0 +1,7 @@
+
+[development]                    # All [environments] inherits values from [default] if defined
+name = "Alice"
+[delelopment.db]
+port= "5432"                  # to merge in value to existing dict, use `__` double underscore lookup.
+[production]
+name = "Bob"
