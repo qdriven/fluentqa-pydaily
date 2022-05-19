@@ -3,8 +3,7 @@
 import abc
 import dataclasses
 
-from pydaily.ioc_more import inject, Container, di
-from pydantic import BaseModel
+from pydaily import inject, di
 
 di["a"] = 1
 di["b"] = "test"

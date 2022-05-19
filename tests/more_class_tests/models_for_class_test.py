@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pydaily.more_classes.core import ThreadSingleton, SingletonArgs, ThreadSingletonArgs
+from pylessons.more_classes.core import ThreadSingleton, SingletonArgs, ThreadSingletonArgs
 from pydaily import Singleton
 
 

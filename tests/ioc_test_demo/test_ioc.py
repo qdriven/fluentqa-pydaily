@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 from injector import Injector
 
-from pydaily.ioc_demo.modules import ServiceClass, ServiceDataClassDemo, RepoClass
+from pylessons.ioc_demo.modules import ServiceClass, ServiceDataClassDemo, RepoClass
 
 
 class TestIoCDemo:

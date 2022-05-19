@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pydaily.patterns.container import service
+from pylessons.patterns.container import service
 
 
 class BaseService:

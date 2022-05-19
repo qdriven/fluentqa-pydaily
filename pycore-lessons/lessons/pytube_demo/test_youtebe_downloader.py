@@ -1,4 +1,4 @@
-from pydaily.lessons.pytube_demo.youtebe_downloader import download
+from pylessons.lessons.pytube_demo.youtebe_downloader import download
 
 
 class TestPytubeDemo:
