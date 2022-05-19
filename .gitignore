@@ -29,7 +29,7 @@ pip-log.txt
 /setup.cfg
 MANIFEST.in
 /setup.py
-/docs/site/*
+/website/docs/site/*
 /tests/fixtures/simple_project/setup.py
 /tests/fixtures/project_with_extras/setup.py
 .mypy_cache
@@ -48,7 +48,7 @@ poetry/core/*
 /build
 
 # Generated files
-.docusaurus
+website/.docusaurus
 .cache-loader
 
 # Misc
