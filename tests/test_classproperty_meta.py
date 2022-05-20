@@ -1,17 +1,26 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pydaily import ClasspropertyMeta, classproperty
+import dataclasses
+from typing import Any
+from pytips.classproperty_demo.meta import ClassProperty, ClassPropertyMeta
+from pytips.classproperty_demo import clsproperty
 
 
-class TestClass(metaclass=ClasspropertyMeta):
+@dataclasses.dataclass
+class DemoClass:
+    name: str
+    data: Any
+
+
+class TestClass(metaclass=ClassPropertyMeta):
     _ro_attr: str = "read-only"
     _rw_attr: str = "change_me"
 
-    @classproperty
+    @clsproperty
     def ro_attr(cls) -> str:
         return cls._ro_attr
 
-    @classproperty
+    @clsproperty
     def rw_attr(cls) -> str:
         return cls._rw_attr
 
@@ -25,4 +34,16 @@ class TestClass(metaclass=ClasspropertyMeta):
 
 
 def test__classproperty():
-    assert False
+    result = ClassProperty.get_class(DemoClass)
+    instance_result = ClassProperty.get_class(DemoClass("test", "data"))
+    print(result, instance_result)
+    assert result == instance_result
+
+
+class TestTestCase:
+
+    def setup(self):
+        pass
+    def test_attr(self):
+        t: TestClass = TestClass()
+        assert t.rw_attr == "change_me"

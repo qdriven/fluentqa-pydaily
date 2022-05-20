@@ -6,6 +6,9 @@ authors = ["you_name_it"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+dynaconf = "^3.1.8"
+loguru = "^0.6.0"
+python-box = "^6.0.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
