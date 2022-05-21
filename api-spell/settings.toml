@@ -1,6 +1,0 @@
-[default]
-log_level="INFO"
-log_file_path="../logs/out.log"
-[development]
-name="CEW-TESTCASE"
-

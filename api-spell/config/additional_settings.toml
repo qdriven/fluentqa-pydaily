@@ -1,8 +1,0 @@
-[default]
-mock_db = { engine = "postgresql", port = "7453" }
-mock_db.attr="default"
-
-[development.server]
-port = 9091
-[development.server.database]
-port=7450
