@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pylessons.patterns.container import service
+from pytips.patterns.container import service
 
 
 class BaseService:
     @classmethod
     def instance(cls):
+        print(type(cls))
         return cls()
 
 
@@ -22,3 +23,4 @@ class ServiceDemo(BaseService):
 
     def post_resources(self):
         print("delete results")
+

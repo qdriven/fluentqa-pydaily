@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 from injector import Injector
 
-from pylessons.ioc_demo.modules import ServiceClass, ServiceDataClassDemo, RepoClass
+from pytips.patterns.ioc_demo.modules import ServiceClass, ServiceDataClassDemo, RepoClass
 
 
 class TestIoCDemo:

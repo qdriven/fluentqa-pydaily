@@ -4,7 +4,7 @@
 from pydantic import BaseModel, ValidationError, validator
 
 
-class UserModel(BaseModel):
+class UserWithValidatorModule(BaseModel):
     name: str
     username: str
     password1: str
@@ -28,7 +28,7 @@ class UserModel(BaseModel):
         return v
 
 
-user = UserModel(
+user = UserWithValidatorModule(
     name='samuel colvin',
     username='scolvin',
     password1='zxcvbn',
@@ -38,7 +38,7 @@ print(user)
 #> name='Samuel Colvin' username='scolvin' password1='zxcvbn' password2='zxcvbn'
 
 try:
-    UserModel(
+    UserWithValidatorModule(
         name='samuel',
         username='scolvin',
         password1='zxcvbn',

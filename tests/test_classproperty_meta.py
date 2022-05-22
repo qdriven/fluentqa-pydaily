@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 import dataclasses
 from typing import Any
-from pytips.classproperty_demo.meta import ClassProperty, ClassPropertyMeta
-from pytips.classproperty_demo import clsproperty
+from pytips.types_demo.classproperty_demo import ClassProperty, ClassPropertyMeta
+from pytips.types_demo.classproperty_demo import clsproperty
 
 
 @dataclasses.dataclass

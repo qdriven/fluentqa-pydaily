@@ -3,7 +3,7 @@
 import abc
 import dataclasses
 
-from pydaily import inject, di
+from pytips.ioc_more import inject
 
 di["a"] = 1
 di["b"] = "test"

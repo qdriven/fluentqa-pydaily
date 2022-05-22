@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pydaily import UserModel
+from pytips.lib_demo.pydantic_demo import UserModel
 
 
 class TestUserModel_pydantic_usage:
@@ -20,13 +20,11 @@ class TestUserModel_pydantic_usage:
         assert user1 == self.user
 
     def test_parse_function(self):
-        UserModel.parse_obj()
-        UserModel.parse_raw()
-        UserModel.parse_file()
-        UserModel.from_orm()
-        UserModel.construct()
-        UserModel.__fields_set__
-        UserModel.__fields__
-        UserModel.__config__
-        self.user.schema()
-        self.user.schema_json()
+        # UserModel.parse_obj()
+        # UserModel.parse_raw()
+        # UserModel.parse_file()
+        # UserModel.from_orm()
+        # UserModel.construct()
+        # self.user.schema()
+        # self.user.schema_json()
+        pass
