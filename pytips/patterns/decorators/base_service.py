@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from pytips.patterns.container import service
+from pytips.patterns.decorators.container import service
 
 
 class BaseService:
     @classmethod
-    def instance(cls):
+    def instance(cls, **kwargs):
         print(type(cls))
-        return cls()
+        return cls(**kwargs)
 
 
 @service.service
@@ -23,4 +23,3 @@ class ServiceDemo(BaseService):
 
     def post_resources(self):
         print("delete results")
-
