@@ -2,14 +2,15 @@
 # -*- coding:utf-8 -*-
 import typer
 
-import cmd
+import ls_command
+
+app = typer.Typer(name='cmd')
+app.add_typer(ls_command.app,name="ls" )
 
 
 def main():
     typer.echo("typer information:")
-    typer.echo(cmd.__name__)
-    typer.echo(cmd.__version__)
 
 
 if __name__ == '__main__':
-    typer.run(main)
+    app()
