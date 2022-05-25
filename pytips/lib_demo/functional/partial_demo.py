@@ -21,5 +21,4 @@ def add(a, b, t=None, **kwargs):
 add(1, 2, v1=10, v2=20)
 
 add_partial = partial(add, 1, 10)
-
-add_partial(t=1, k1=10, k2=20)
+add_partial(t=100, v1=100)
