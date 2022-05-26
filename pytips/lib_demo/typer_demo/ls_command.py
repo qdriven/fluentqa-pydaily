@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 import typer
 
-app = typer.Typer()
+app = typer.Typer(name="ls")
 
 
 @app.command("tag")
