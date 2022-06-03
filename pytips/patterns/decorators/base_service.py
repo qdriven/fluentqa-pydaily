@@ -10,7 +10,7 @@ class BaseService:
         return cls(**kwargs)
 
 
-@service.service
+@service.register
 class ServiceDemo(BaseService):
     def create_resources(self):
         print("print results")

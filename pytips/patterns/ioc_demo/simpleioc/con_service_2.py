@@ -4,7 +4,7 @@ from pytips.patterns.ioc_demo.simpleioc.di import sdk, BaseDiService, ClassFacto
 
 
 @sdk.register
-class DiService(BaseDiService, ClassFactory):
+class ManualService(BaseDiService,ClassFactory):
 
     def action_1(self):
         print("action-1")
