@@ -13,6 +13,8 @@ blogs:
   - https://github.com/n8n-io/n8n
   - https://www.openintegrationhub.org/
 repos:
+  - https://github.com/hackersandslackers
+  - https://github.com/johnthagen/python-blueprint.git
   - https://pydoit.org/contents.html
   - https://github.com/PrefectHQ/server
   - https://github.com/Kholid060
