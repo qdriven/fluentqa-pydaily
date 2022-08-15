@@ -55,6 +55,11 @@ poetry run dynaconf -i config.settings list
 
 ## 配置使用
 
+- 如何是用简单的配置
+- 如何使用复杂的配置
+- 如何使用不同环境的配置
+
+
 ## 参考
 
 - [12factor-config](https://12factor.net/config)
