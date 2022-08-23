@@ -37,6 +37,7 @@ python = "^3.10"
 typer = {extras = ["all"], version = "^0.6.1"}
 rich = "^12.5.1"
 dynaconf = "^3.1.9"
+sympy = "^1.10.1"
 
 
 [tool.poetry.dev-dependencies]
