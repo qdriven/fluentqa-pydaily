@@ -38,6 +38,10 @@ typer = {extras = ["all"], version = "^0.6.1"}
 rich = "^12.5.1"
 dynaconf = "^3.1.9"
 sympy = "^1.10.1"
+pycrypto = "^2.6.1"
+SQLAlchemy = "^1.4.40"
+jupyter = "^1.0.0"
+notebook = "^6.4.12"
 
 
 [tool.poetry.dev-dependencies]

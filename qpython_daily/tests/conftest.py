@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+"""
+Coniguration for Tests mainly contains all fixtures
+"""
+import pytest
+
+@pytest.fixture(scope="package")
+def config_with_project():
+    return {"default_editor": "code .", "projects": [{'project_name':'abc','path':'/abc/def/test'}]}
+
+@pytest.fixture(scope="package")
+def config_with_no_project():
+    return {"default_editor": "code .", "projects": []}
+
