@@ -5,7 +5,7 @@ import os
 from typer.testing import CliRunner
 
 from qpython_daily.json_myth.json_builtin import JsonDataOperations
-from qpython_daily.typecli_main import app
+from qpython_daily.clidemos.typecli_main import app
 
 # Runner Object
 runner = CliRunner()

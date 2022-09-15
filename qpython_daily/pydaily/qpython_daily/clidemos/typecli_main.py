@@ -3,11 +3,10 @@ Main file for the package
 """
 import os
 import typer
-import json
 from typing import Optional
 
 from qpython_daily.json_myth.json_builtin import JsonDataOperations, AutoComplete
-from typercli import __version__
+from qpython_daily.clidemos.typercli import __version__
 
 app = typer.Typer()
 
