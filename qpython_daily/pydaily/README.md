@@ -1,23 +1,21 @@
-# qpython-daily
+# QA Python Daily Tips
 
-<div align="center">
+Python is changing over time. But in Software QA mind:
 
-[![Build status](https://github.com/qpython_daily/qpython-daily/workflows/build/badge.svg?branch=master&event=push)](https://github.com/qpython_daily/qpython-daily/actions?query=workflow%3Abuild)
-[![Python Version](https://img.shields.io/pypi/pyversions/qpython-daily.svg)](https://pypi.org/project/qpython-daily/)
-[![Dependencies Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/qpython_daily/qpython-daily/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aapp%2Fdependabot)
+1. it is a script language, so no need to consider how to manage your codes
+2. everything is about python language
+3. it is too easy to learn, only cost maybe 2 days to catch up anything in python
+4. Or it is too hard to learn a programing language, So give up.
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
-[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/qpython_daily/qpython-daily/blob/master/.pre-commit-config.yaml)
-[![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/qpython_daily/qpython-daily/releases)
-[![License](https://img.shields.io/github/license/qpython_daily/qpython-daily)](https://github.com/qpython_daily/qpython-daily/blob/master/LICENSE)
-![Coverage Report](assets/images/coverage.svg)
+Actually all the answer for these impressions is debatable. If some old QA tells you these impression about python,
+This QA might be a manager who is detached from python for a long time. 
 
-Awesome `qpython_daily` is a Python cli/package 
+To be honest, after not writing python several years, I have the same impression after I start to rew-write some python 
+codes. 
 
-</div>
+## Very first steps to set up project
 
-## Very first steps
+- Poetry: For Project/Dependencies Management
 
 ### Initialize your code
 
