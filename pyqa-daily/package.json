@@ -1,0 +1,34 @@
+{
+  "name": "pyqa-daily",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@docsearch/js": "^3.2.1",
+    "@headlessui/vue": "^1.7.2",
+    "@vueuse/core": "^9.2.0",
+    "@vueuse/head": "^0.7.11",
+    "cypress": "^10.8.0",
+    "pinia": "^2.0.22",
+    "prism-theme-vars": "^0.2.4",
+    "vite-ssg": "^0.20.2",
+    "vitest": "^0.23.2",
+    "vue": "^3.2.38",
+    "vue-gtag": "^2.0.1",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.7",
+  }
+}

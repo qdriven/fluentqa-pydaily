@@ -1,0 +1,14 @@
+# This file contains values from Cookiecutter
+
+default_context:
+  project_name: "fluentqa-app"
+  project_plug: "fluentqa_app"
+  project_description: "Awesome `fluentqa_app` is a Python cli/package "
+  organization: "fluentqa-app"
+  license: "MIT"
+  minimal_python_version: 3.10
+  github_name: "qdriven"
+  email: "hello@fluentqa-app.com"
+  version: "0.1.0"
+  line_length: "88"
+  create_example_template: "server"
